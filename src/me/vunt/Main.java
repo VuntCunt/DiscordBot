@@ -18,7 +18,7 @@ public class Main extends ListenerAdapter {
     static int guildCount;
 
     public static void main(String[] args) throws LoginException, InterruptedException{
-        String token = "NDc2OTA2MzY2MDI4NzQyNjY2.Dk0Z9Q.HdXU5ElnIXZWqVgU7c1KECOwzkY";
+        String token = "dont try to get the token you shit bag";
         jda = new JDABuilder(AccountType.BOT).setToken(token).buildBlocking();
         jda.addEventListener(new Main());
         jda.addEventListener(new FilterListener());
